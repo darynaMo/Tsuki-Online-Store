@@ -5,7 +5,10 @@ using System.Threading.Tasks;
 
 namespace TsukiStore.Data
 {
-    public class ProductType
+    public enum ProductType
     {
+        Вологий = 1,
+        Сухий,
+        Паштет
     }
 }
