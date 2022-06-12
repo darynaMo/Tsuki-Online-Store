@@ -19,5 +19,8 @@ namespace TsukiStore.Models
         public double Ціна { get; set; }
         public string ImageURL { get; set; }
         public ProductType Вид { get; set; }
+
+        //Relationships
+        public List<Brand_Product> Бренд_Продукт { get; set; }
     }
 }

@@ -14,5 +14,8 @@ namespace TsukiStore.Models
         public string ProfilePictureURL { get; set; }
         public string Назва { get; set; }
         public string Опис { get; set; }
+
+        //Relationships
+        public List<Brand_Product> Бренд_Продукт { get; set; }
     }
 }
